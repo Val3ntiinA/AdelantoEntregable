@@ -19,8 +19,8 @@ Ayudante : [Ignacio Passalacqua](https://github.com/ipassala)
 Ramo: Inteligencia artificial (AUDIV027-1)
 _____
 ## Generador de texto mediante posturas de las manos
-Mediante distintas posturas de manos establecidas previamente, atravez de la webcam, esta inteligencia artificial puede generar textos aleatorios.
-La idea es que mediante tu mano y las posturas preestablecidas 
+
+La idea de funcionamiento de la inteligencia es que, a partir de la clasificación de posturas de manos capturadas por una Webcam, estas tengan una salida de aleatoria de Pronombres, Sustantivos, Adjetivos y Verbos según las posturas antes ingresadas. La generación de texto resultante deriva de una confianza mínima del 70% en relación a las posturas identificadas con la Webcam.
 
 ## Codigo
 ### Index
@@ -200,6 +200,7 @@ const LABELS_MAP = {
 ## Materiales 
  #### Hardware
   + Computador
+  + Webcam
 
  #### Software: 
   + p5.js
