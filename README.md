@@ -33,15 +33,16 @@ Mediante distintas posturas de manos establecidas previamente, atravez de la web
 
  #### Software: 
   + p5.js
-  + ml5
-  + Andreas Refsgaard Hand Tracking + KNN Classifier
+  + Andreas Refsgaard Hand Tracking + KNN Classifier de ml5
 
 
 ## Referentes y recursos adicionales
 [Andreas Refsgaard Hand Tracking + KNN Classifier](https://editor.p5js.org/AndreasRef/sketches/vyiGyVon9)
 Train a KNN to detect your finger gestures
-
+Ademas sacamos ideas de la [clase 2](https://github.com/Val3ntiinA/audiv027-2023-2/tree/main/clases/clase-02) donde se creo con un generador de texto, generar nuevos textos similar al quijote
 
 ## Concluciones y aprendizajes 
-- Logramos modificar los codigos de una iteligencia artificial preexistente para crear nuevas clasificaciones para las posturas de las manos
-- Logramos agregar la capacidad de generar texto
+- Logramos modificar los codigos de una iteligencia artificial preexistente, agregando nuevos elementos para cambiar la funcion de esta.
+- Durante el proceso de modificar los tipos de clasificaciones de palabras (sustantivos, vervos, pronombres, adjetivos) segun distintas posturas de manos, nos estancamos en como alimentar la inteligencia con palabras de cada calificacion
+- Queda pendiente aumentar la base de datos segun cada categoria de palabras (sustantivos, vervos, pronombres, adjetivos)
+- Fue complicado agregar nuevas funciones para los nuevos botones.
